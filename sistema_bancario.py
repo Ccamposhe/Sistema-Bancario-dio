@@ -21,8 +21,11 @@ while op != 0:
 
     elif op == 3:
         saque = float(input("Digite o valor que deseja sacar: "))
-        extrato -= saque
-        print(f"Operação concluida \n -{saque:.2f}")
+        
+        if saque > extrato:
+            print("Essa operação não foi possivel")
+        else:
+            print(f"Operação concluida \n -{saque:.2f}")
 
 print(f"Operação finalizada \n Extrato total: {extrato:.2f}")
 
