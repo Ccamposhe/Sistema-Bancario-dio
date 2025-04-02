@@ -7,7 +7,7 @@ while op != 0:
         Qual operação você deseja:   R$: {extrato:.2f}    
           [1] Depositar                    
           [2] Extrato                      
-          [3] Saque                        
+          [3] Sacar                        
           [0] Fechar                       
              
 """))
