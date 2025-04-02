@@ -23,7 +23,7 @@ while op != 0:
         saque = float(input("Digite o valor que deseja sacar: "))
         
         if saque > extrato:
-            print("Essa operação não foi possivel")
+            print("Extrato insuficiente")
         else:
             print(f"Operação concluida \n -{saque:.2f}")
 
